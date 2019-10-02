@@ -1,3 +1,5 @@
+⚠️ This is a fork of `gopkg.in/yaml.v2`, and the module name has been renamed. Use with caution! ⚠️
+
 # YAML support for the Go language
 
 Introduction
@@ -20,18 +22,18 @@ supported since they're a poor design and are gone in YAML 1.2.
 Installation and usage
 ----------------------
 
-The import path for the package is *gopkg.in/yaml.v2*.
+The import path for the package is *github.com/hairyhenderson/yaml*.
 
 To install it, run:
 
-    go get gopkg.in/yaml.v2
+    go get github.com/hairyhenderson/yaml
 
 API documentation
 -----------------
 
 If opened in a browser, the import path itself leads to the API documentation:
 
-  * [https://gopkg.in/yaml.v2](https://gopkg.in/yaml.v2)
+  * [https://github.com/hairyhenderson/yaml](https://github.com/hairyhenderson/yaml)
 
 API stability
 -------------
@@ -55,7 +57,7 @@ import (
         "fmt"
         "log"
 
-        "gopkg.in/yaml.v2"
+        "github.com/hairyhenderson/yaml"
 )
 
 var data = `
